@@ -1,11 +1,11 @@
 import express from "express";
 import React from "react";
 import { renderToString } from "react-dom/server";
-import Counter from "../comp/Counter";
+import Page from "../comp/Counter";
 
 const app = express();
 app.use(express.static("public"));
-const content = renderToString(<Counter />);
+const content = renderToString(<Page />);
 
 app.get("/", (req, res) =>
   res.send(`

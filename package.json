@@ -1,5 +1,5 @@
 {
-  "name": "react-ssr-demo",
+  "name": "ispmorphic-render",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/napster99/react-ssr-demo.git",
@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "npm-run-all --parallel dev:**",
-    "dev:start": "nodemon --watch build --exec node \"./build/bundle.js\"",
+    "dev:start": "nodemon --watch build --exec node \"./build/server-bundle.js\"",
     "dev:build:server": "webpack --config webpack.server.js --watch",
     "dev:build:client": "webpack --config webpack.client.js --watch"
   },
@@ -20,8 +20,8 @@
     "@mui/material": "^5.11.7",
     "babel-loader": "^8.2.2",
     "express": "^4.17.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "webpack": "^5.37.1",
     "webpack-cli": "^4.7.0",
     "webpack-node-externals": "^3.0.0"

@@ -6,7 +6,7 @@ module.exports = {
   mode: "development",
   entry: "./src/server/app.js",
   output: {
-    filename: "bundle.js",
+    filename: "server-bundle.js",
     path: path.resolve(__dirname, "build"),
   },
   externals: [nodeExternals()],
